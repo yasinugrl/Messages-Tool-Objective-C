@@ -13,6 +13,11 @@
 		6716B4E51F31CBDF009664EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6716B4E31F31CBDF009664EC /* Main.storyboard */; };
 		6716B4E71F31CBDF009664EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6716B4E61F31CBDF009664EC /* Assets.xcassets */; };
 		6716B4EA1F31CBDF009664EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6716B4E81F31CBDF009664EC /* LaunchScreen.storyboard */; };
+		6716B4F31F31CCF5009664EC /* MessageAttachViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6716B4F21F31CCF5009664EC /* MessageAttachViewController.m */; };
+		6716B4F61F31D3B3009664EC /* MessageItemData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6716B4F51F31D3B3009664EC /* MessageItemData.m */; };
+		6716B4F91F31D3E3009664EC /* MessageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6716B4F81F31D3E3009664EC /* MessageItem.m */; };
+		6716B4FC1F31D549009664EC /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6716B4FB1F31D549009664EC /* AsyncImageView.m */; };
+		6716B4FF1F31E5CD009664EC /* Component.m in Sources */ = {isa = PBXBuildFile; fileRef = 6716B4FE1F31E5CD009664EC /* Component.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		6716B4E61F31CBDF009664EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6716B4E91F31CBDF009664EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6716B4EB1F31CBDF009664EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6716B4F11F31CCF5009664EC /* MessageAttachViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageAttachViewController.h; sourceTree = "<group>"; };
+		6716B4F21F31CCF5009664EC /* MessageAttachViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageAttachViewController.m; sourceTree = "<group>"; };
+		6716B4F41F31D3B3009664EC /* MessageItemData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageItemData.h; sourceTree = "<group>"; };
+		6716B4F51F31D3B3009664EC /* MessageItemData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageItemData.m; sourceTree = "<group>"; };
+		6716B4F71F31D3E3009664EC /* MessageItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageItem.h; sourceTree = "<group>"; };
+		6716B4F81F31D3E3009664EC /* MessageItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageItem.m; sourceTree = "<group>"; };
+		6716B4FA1F31D549009664EC /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		6716B4FB1F31D549009664EC /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
+		6716B4FD1F31E5CD009664EC /* Component.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Component.h; sourceTree = "<group>"; };
+		6716B4FE1F31E5CD009664EC /* Component.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Component.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,16 @@
 		6716B4D91F31CBDF009664EC /* MessageComponent */ = {
 			isa = PBXGroup;
 			children = (
+				6716B4FD1F31E5CD009664EC /* Component.h */,
+				6716B4FE1F31E5CD009664EC /* Component.m */,
+				6716B4FA1F31D549009664EC /* AsyncImageView.h */,
+				6716B4FB1F31D549009664EC /* AsyncImageView.m */,
+				6716B4F71F31D3E3009664EC /* MessageItem.h */,
+				6716B4F81F31D3E3009664EC /* MessageItem.m */,
+				6716B4F41F31D3B3009664EC /* MessageItemData.h */,
+				6716B4F51F31D3B3009664EC /* MessageItemData.m */,
+				6716B4F11F31CCF5009664EC /* MessageAttachViewController.h */,
+				6716B4F21F31CCF5009664EC /* MessageAttachViewController.m */,
 				6716B4DD1F31CBDF009664EC /* AppDelegate.h */,
 				6716B4DE1F31CBDF009664EC /* AppDelegate.m */,
 				6716B4E01F31CBDF009664EC /* ViewController.h */,
@@ -150,9 +175,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6716B4F91F31D3E3009664EC /* MessageItem.m in Sources */,
+				6716B4FF1F31E5CD009664EC /* Component.m in Sources */,
 				6716B4E21F31CBDF009664EC /* ViewController.m in Sources */,
+				6716B4F31F31CCF5009664EC /* MessageAttachViewController.m in Sources */,
+				6716B4F61F31D3B3009664EC /* MessageItemData.m in Sources */,
 				6716B4DF1F31CBDF009664EC /* AppDelegate.m in Sources */,
 				6716B4DC1F31CBDF009664EC /* main.m in Sources */,
+				6716B4FC1F31D549009664EC /* AsyncImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
